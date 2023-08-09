@@ -5,7 +5,7 @@
 ### About the Changes:
 
 #### 🎟️Ticket #0000
-- [ ] 🪳Bugfix
+- [ ] 🐞Bugfix
 - [ ] 🆕Feature
 - [ ] 🔁Refactoring (no functional changes, no api changes)
 - [ ] 📃Documentation content changes
