@@ -4,7 +4,7 @@
 ## PR Checks
 ### About the Changes:
 
-#### 🎟️Jira Issue ID [XXXX-0000]
+#### 🎟️Jira Issue ID [XXXX-0000](URL)
 - [ ] 🐞Bugfix
 - [ ] 🆕Feature
 - [ ] 🔁Refactoring (no functional changes, no api changes)
