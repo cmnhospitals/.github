@@ -4,7 +4,7 @@
 ## PR Checks
 ### About the Changes:
 
-#### 🎟️Ticket #0000
+#### 🎟️Jira Issue ID [XXXX-0000]
 - [ ] 🐞Bugfix
 - [ ] 🆕Feature
 - [ ] 🔁Refactoring (no functional changes, no api changes)
