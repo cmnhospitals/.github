@@ -1,0 +1,22 @@
+name: Assign Teams to New Repository
+
+on:
+  create:
+    types: [repository]
+
+jobs:
+  assign-teams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Assign teams
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /orgs/cmnhospitals/teams/devops/repos/{cmnhospitals}/${{ github.event.repository.name }}
+          team_slug: 'devops'
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
