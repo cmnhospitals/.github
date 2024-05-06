@@ -6,6 +6,7 @@
 
 #### 🎟️Jira Issue ID [XXXX-0000](URL)
 - [ ] 🐞Bugfix
+- [ ] ✨Enhancement
 - [ ] 🆕Feature
 - [ ] 🔁Refactoring (no functional changes, no api changes)
 - [ ] 📃Documentation content changes
