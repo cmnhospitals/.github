@@ -2,8 +2,8 @@
     "name": "CMN Merge Validation Workflow",
     "description": "CMN workflow template for the Merge Validation action which validates users are merging appropriate branches and following the defined checkin process.",
     "categories": [
-        "CMN"
-        "Children's Miracle Network"
+        "CMN",
+        "Children's Miracle Network",
         "Merge Validation"
     ]
 }
