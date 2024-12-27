@@ -1,0 +1,17 @@
+name: "✅ Merge Readiness"
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+concurrency:
+  group: Merge-Validation
+  cancel-in-progress: false
+
+jobs:
+  Merge_Validation:
+    name: 📢 Validate Head Branch
+    uses: cmnhospitals/Reusable-Actions/.github/workflows/Merge_Validation.yml@main
+    secrets: inherit
