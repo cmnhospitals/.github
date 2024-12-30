@@ -3,9 +3,8 @@
     "description": "CMN Unit Tests Workflow for running the Unit Tests on .NET projects",
     "iconName": "octicon beaker height:24",
     "categories": [
-        "CMN",
-        "Children's Miracle Network",
-        "Unit Tests"
+        "Testing",
+        "C#"
     ],
     "filePatterns": [
         "^*.sln$",
