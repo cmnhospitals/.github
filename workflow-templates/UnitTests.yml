@@ -1,0 +1,25 @@
+name: "🧪 Unit Tests"
+on:
+  workflow_dispatch: 
+  pull_request:
+    types:
+    - opened
+    - reopened
+    - synchronize
+  push:
+    branches:
+    - $default-branch
+    - rc/**
+    - hfc/**
+defaults:
+  run:
+    shell: pwsh
+jobs:
+  Test:
+    name: "🧪 Test <Solution_Name>.sln"
+    uses: cmnhospitals/Reusable-Actions/.github/workflows/UnitTests.yml@main
+    with:
+      solution_name: <Solution_Name>
+      node_version: <Node_Version>
+      dotnet_version: <DotNet_Version>
+    secrets: inherit

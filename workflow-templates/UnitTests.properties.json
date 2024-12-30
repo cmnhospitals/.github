@@ -1,0 +1,15 @@
+{
+    "name": "CMN Unit Tests Workflow",
+    "description": "CMN Unit Tests Workflow for running the Unit Tests on .NET projects",
+    "iconName": "octicon beaker height:24",
+    "categories": [
+        "CMN",
+        "Children's Miracle Network",
+        "Unit Tests"
+    ],
+    "filePatterns": [
+        "^*.sln$",
+        "CodeCoverage.runsettings$",
+        "^tests[/\\].*\\.Tests$"
+    ]
+}
